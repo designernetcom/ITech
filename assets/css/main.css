@@ -7912,3 +7912,10 @@ Animate wobble-vertical
   display: flex;
   justify-content: center;
 }
+.blog-content h5 {
+  font-size: 17px;
+  text-align: center;
+}
+.blog-link {
+  text-align: center;
+}
