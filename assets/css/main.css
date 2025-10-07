@@ -1831,7 +1831,7 @@ figure {
 }
 
 .header-logo {
-  max-width: 170px;
+  max-width: 250px;
 }
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px),
@@ -7918,4 +7918,7 @@ Animate wobble-vertical
 }
 .blog-link {
   text-align: center;
+}
+.brand-section {
+  padding-top: 50px;
 }
