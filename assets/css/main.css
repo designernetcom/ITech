@@ -459,6 +459,7 @@ figure {
 
 .bg-color-1 {
   background: var(--theme-color-1);
+  padding: 20px;
 }
 
 .bg-color-2 {
@@ -3244,7 +3245,7 @@ p.banner-text {
 
 .service-slider-area figure {
   overflow: hidden;
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 
 .service-slider-area:hover figure img {
@@ -3743,7 +3744,7 @@ p.banner-text {
 
 .choose-section figure.image {
   position: relative;
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 
 .choose-section .section-title {
@@ -6451,8 +6452,6 @@ ul.about-3-list li:before {
 /* MAP CSS START
 /*----------------------------------------*/
 .contact-map iframe {
-  width: 100%;
-  height: 600px;
   mix-blend-mode: luminosity;
   margin-bottom: -8px;
 }
@@ -6478,7 +6477,7 @@ ul.service-details-page-list li:before {
 
 ul.service-details-page-list li {
   margin-left: 10px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
@@ -7921,4 +7920,40 @@ Animate wobble-vertical
 }
 .brand-section {
   padding-top: 50px;
+}
+.work-process-box .content h4 {
+  font-size: 23px;
+}
+.service-details-page .image {
+  margin-top: 20px;
+}
+.service-details-title {
+  color: #fd0402;
+}
+.product-slider p {
+  color: white;
+}
+.product-slider .content a {
+  font-size: 16px;
+}
+.product-slider .section-title {
+  text-align: center;
+  color: #000 !important;
+}
+.product-slider .image img {
+  width: 650px;
+  margin: 0 auto;
+}
+.image-div p {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.product-slider .section-title {
+  font-size: 35px !important;
+}
+.sbs {
+  display: flex;
+  margin: 0 auto;
 }
