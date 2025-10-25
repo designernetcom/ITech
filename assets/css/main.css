@@ -1028,7 +1028,7 @@ figure {
 }
 
 .section-space-medium {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-space-medium {
@@ -6397,7 +6397,8 @@ ul.about-3-list li:before {
 }
 
 .breadcrumb__wrapper .breadcrumb__title {
-  color: #fff;
+      color: #fff;
+    font-size: 40px;
 }
 
 .breadcrumb__wrapper ul {
@@ -7963,4 +7964,20 @@ Animate wobble-vertical
 .features-section {
   margin-top: 40px;
   padding: 70px;
+}
+.small-container .image img {
+  width: 100% !important;
+}
+.choose-section {
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.breadcrumb__area {
+  background: linear-gradient(
+    90deg,
+    rgb(249 4 0) 0%,
+    rgb(250 5 2 / 78%) 50%,
+    rgb(248 5 1 / 68%) 100%
+  );
+  padding: 60px;
 }
